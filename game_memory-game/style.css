@@ -1,0 +1,115 @@
+* {  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {  
+    height: 100vh;
+    display: flex;
+    background: #060AB2;
+    flex-direction: column;
+  }
+  button{
+    width: 100px;
+    
+  }
+  input{
+width: 100px;
+text-align: center;
+  }
+  .header{
+    text-align: center;
+    height: 70px;
+    background-color: #000;
+  }
+  .input-header{
+    background: #000;
+  }
+  .memory-game {
+    width: 640px;
+    height: 640px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .front-face,
+  .back-face {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: absolute;
+    border-radius: 5px;
+    background: #1C7CCC;
+    backface-visibility: hidden; 
+  }
+  .memory-card {  
+    width: calc(25% - 10px);
+    height: calc(33.333% - 10px);
+    margin: 5px;
+    position: relative;
+    transform-style: preserve-3d; 
+    box-shadow: 1px 1px 0 rgba(0, 0, 0, .3);
+   transform: scale(1);
+   transition: transform .5s; 
+  }
+  
+  .memory-card:active {  
+    transform: scale(0.97);
+    transition: transform .2s;
+  }
+  .memory-card.flip {
+    transform: rotateY(180deg); 
+  }
+  .memory-game { 
+  width: 640px;
+  height: 640px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  perspective: 1000px;
+}
+.front-face {
+    transform: rotateY(180deg);
+  }
+  .footer {  
+    background-color: #000;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 40px);
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 5px 20px;
+    font-size: 20px;
+  }
+  .footer-data {
+    display: flex;
+    align-items: center;
+  }
+  .copyright {
+    padding-right: 20px;
+  }
+  .github {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px;
+    transition: .3s;
+  }
+  .github:hover {
+    color: #bdae82; 
+  }
+  .rss {
+    width: 135px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("./svg/rss.svg");
+    transition: .3s;
+  }
+  .rss:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+  }
