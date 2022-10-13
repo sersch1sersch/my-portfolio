@@ -1,0 +1,289 @@
+body{
+    max-width: 1280px;
+    margin: 0 auto;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;   
+    -khtml-user-select: none;   
+    -moz-user-select: none;      
+    -ms-user-select: none;     
+    user-select: none;   
+    visibility: hidden;
+   
+
+}
+.pole{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    height: 550px;
+}
+.car{
+    position: absolute;
+transform: rotate(0deg);
+left:147px;
+top:410px;
+
+}
+.treck{
+position: relative;
+}
+.automotive{
+    position: absolute;
+    width:52px;
+     height:100px;
+     transform: translateZ(0);
+     top:-110px
+}
+.convertible{
+    position: absolute;
+    width:52px;
+     height:100px;
+     transform: translateZ(0);
+    top:-110px
+}
+.delahaye{
+    position: absolute;
+    width:52px;
+     height:100px;
+     transform: translateZ(0);
+    top:-110px
+}
+.mini-cooper{
+    position: absolute;
+    width:52px;
+     height:100px;
+     transform: translateZ(0);
+    top:-110px
+}
+.police{
+    position: absolute;
+    width:52px;
+     height:100px;
+     transform: translateZ(0);
+    top:-110px
+}
+.sports{
+    position: absolute;
+    width:52px;
+     height:100px;
+     transform: translateZ(0);
+     top:-110px
+}
+.bus{
+    position: absolute;
+    width:52px;
+     height:100px;
+     transform: translateZ(0);
+     top:-110px
+}
+.pngwing{
+    position: absolute;
+    width:45px;
+     height:60px;
+     transform: translateZ(0);
+     top:-110px 
+}
+.point{
+    width: 20px;
+}
+.heart-point{
+    width: 20px;
+}
+.menu{
+    text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.header{
+    max-width: 1280px;
+    text-align: center;
+}
+#homeId{
+overflow: hidden;
+}
+#homeId img{
+    transform: translateZ(0);
+    width: 100%;
+    animation: slide-in-bottom 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-in-bottom {
+    0% {
+      -webkit-transform: translateY(1000px);
+              transform: translateY(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  .knopki li{
+     border-radius: 40px;
+     margin-right: 10px;
+     color: rgb(99, 99, 3);
+     text-decoration:none;
+     font-size: 20px;
+     font-weight: bold;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     display: inline;
+     cursor: pointer;
+  }
+  .knopki li:last-child{
+    margin-right:0
+  }
+  #pravilaId{
+      width: 500px;
+      margin: 0 auto;
+      text-align: justify;
+      letter-spacing: 2px;
+      margin-top: 100px;
+      color: rgb(236, 18, 164);
+      font-size: 25px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  #app{
+      overflow: hidden;
+  }
+  .menu img{
+      width: 20px;
+      height: 25px;
+  }
+ul{
+    padding-left: 0;
+}
+#rekordsId{ 
+  
+    transform: translateZ(0);
+    animation: slide-in-fwd-top 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 100px;
+    color: rgb(40, 165, 148);
+    font-size: 30px;
+  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@-webkit-keyframes slide-in-fwd-top {
+    0% {
+      -webkit-transform: translateZ(-1400px) translateY(-800px);
+              transform: translateZ(-1400px) translateY(-800px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-fwd-top {
+    0% {
+      -webkit-transform: translateZ(-1400px) translateY(-800px);
+              transform: translateZ(-1400px) translateY(-800px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+ 
+  
+
+  @media all and (max-width: 530px){
+    #pravilaId {
+   width: 310px;
+   text-align:center
+    }
+  }
+
+.names{
+padding-top: 200px;
+    position: absolute;
+     inset: 0px;
+      background-color: rgba(0, 0, 0, 0.8);
+       color: rgb(72, 114, 108);
+        text-align: center;
+        font-weight: bold;
+         font-family: cursive;
+          font-size: 40px;
+           z-index: 12;
+            display: none;
+}
+.inputName{
+   background-color: rgb(114, 114, 112);
+    font-weight: bold;
+     font-style: italic;
+      color: black;
+}
+.getNamePlayer{
+    background-color: black;
+     font-weight: bold;
+ color: rgb(56, 79, 129);
+}
+.newGame{
+    background-color: black;
+     color: rgb(95, 44, 59);
+      font-size: 25px;
+      font-weight: bold;
+       font-family: cursive;
+        display: block;
+         margin: auto
+}
+.rec{
+    text-align: center;
+    color: brown;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.gallery__item img{
+max-height: 1000px;
+}
+.tach{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    position: absolute;
+    top:500px;
+    border-radius: 40px;
+    color:red;
+    font-weight: bold;
+    border: solid green 3px;
+    height: 50px;
+    width: 57px;
+    -webkit-touch-callout: none; 
+  -webkit-user-select: none;   
+  -khtml-user-select: none;    
+  -moz-user-select: none;      
+  -ms-user-select: none;     
+  user-select: none;   
+}
+.right{
+    position: absolute;
+    top:500px;
+    left:291px;
+    border-radius: 40px;
+    color:red;
+    font-weight: bold;
+    border: solid green 3px;
+    height: 50px;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;   
+    -khtml-user-select: none;   
+    -moz-user-select: none;      
+    -ms-user-select: none;     
+    user-select: none;   
+}
+.polyline1,
+.polyline1,
+.rect1,
+.line1,
+.car_svg{
+    transform: translateZ(0);
+}
