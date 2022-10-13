@@ -1,0 +1,359 @@
+@media all and (max-width: 1200px)
+{
+.section_video_title3_submit1
+{
+  background-size: contain;
+  text-align: center;
+  width: 105px;
+  height: 105px;
+}
+}
+@media all and (max-width: 768px){
+:root{
+--font1:400 32px 'Merriweather', serif;
+--font2: 700 32px 'Merriweather', serif;
+}
+/* header*/
+.main-container{
+  height: 590px;
+  background-position: -5px -30px;
+  background-size: auto 620px;
+}
+.header-container {
+  background: url('assets/img/bg.jpg');
+  background-position: -5px -30px;
+  background-size: auto 620px;
+  height: 0px;
+}
+.header-logo {
+  padding-top: 20px;}
+.hero-section-item2{
+  height: 72px;
+  width: 390px;
+  line-height: 24px;
+  padding-top: 20px;
+}
+.search_form {
+  padding-top: 60px;
+}
+.hero-section{
+  padding-top: 144px;
+  width: 390px;
+}
+.theme_switch{
+  padding-right: 15px;
+}
+
+/* the end header*/
+/* skills*/
+.section_skills_title{
+  width: 364px;
+}
+h2.section_skills_title::before,h2.section_skills_title::after {
+  width: 30%;
+}
+.section_skills2 {
+  padding-top: 80px;
+}
+  .section_skills_navigation {
+  padding-top: 60px;
+}
+.section_skills_title {
+  line-height: 40px;}
+.section_skills_navigation1_item2 {
+  line-height: 22px;}
+.section_skills_navigation2_item2 {
+  line-height: 22px;}
+.section_skills_navigation3_item2 {
+  line-height: 22px;}
+.section_skills_navigation4_item2 {
+  line-height: 22px;}
+/* the end skills*/
+/* portfolio*/
+.section_portfolio_title1 {
+  width: 364px;
+}
+.portfolio_foto img{
+  width: 100%;
+}
+h2.section_portfolio_title1::before,
+h2.section_portfolio_title1::after {
+  width: 21%;
+}
+.section_portfolio_title {
+  padding-top: 80px;}
+.section_portfolio_title2 {
+  padding-top: 50px;}
+/* portfolio*/
+/* video*/
+.section_video_title1 {
+  width: 364px;
+}
+h2.section_video_title1::before,h2.section_video_title1::after {
+  width: 31%;
+}
+.section_video_title {
+  padding-top: 80px;}
+.section_video_title2 {
+  padding-top: 50px;}
+/* the end video*/
+/* price*/
+.section_price_title1 {
+  width: 364px;
+}
+h2.section_price_title1::before,h2.section_price_title1::after{
+  width: 36%;
+}
+.section_price_title {
+  padding-top: 80px;}
+.section_price_title2 {
+  padding-top: 50px;}
+/*  the end price*/
+.container_footer_title_github {
+  line-height: 24px;
+padding-top: 10px;
+}
+.container_footer_title_rsschool a {
+  line-height: 24px;}
+.container_footer_title_rsschool{
+  padding-top: 12px;
+}
+.container_footer_title_links1 {
+ margin: 0;
+ padding-top: 12px;
+}
+.section_video_title3_submit1{
+  background-size: contain;
+  text-align: center;
+  width: 75px;
+  height: 75px;
+}
+.section_contacts{
+  height: 584px;
+  background-position: -240px -30px;
+  background-size: auto 621px;
+}
+.container_footer{
+  flex-direction: column;
+  height: 190px;
+  justify-content: center;
+}
+.section_button_form {
+  margin-left: 111px;
+}
+/* burger*/
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  user-select: none;
+  z-index: 2;
+  margin-top: 2px;
+  margin-right: 31px;
+}
+.line {
+  width: 95%;
+  height: 3px;
+  background: white;
+  margin: 4px 0;
+  z-index: 15;
+  transition: all 0.3s ease-in-out;
+}
+.hamburger.open .line1 {
+  transform: rotate(-45deg) translate(-10px, 6px);
+}
+.hamburger.open .line2 {
+  opacity: 0;
+}
+.hamburger.open .line3 {
+  transform: rotate(45deg) translate(-8px, -6px);
+}
+.nav-list.open 
+  {display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: absolute;
+  width: 448px;
+  height: 590px;
+  padding: 134px 0px 0px 127px;
+  padding-top: 117px;
+  background: black;
+  list-style-type: none;
+  transform: scale(1.0, 1.0);
+  top: 0px;
+  right:0px;
+  margin: 0;
+}
+.nav-list {
+  display: none;
+}
+.nav-list li{
+  padding: 10px 0;
+  font-size: 22px;
+}
+.nav-link{
+  font-size: 35px;
+  line-height: 73px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+}
+}
+/*  конец burger*/
+@media all and (max-width: 490px){
+:root{
+  --font1:400 22px 'Merriweather', serif;
+  --font2: 700 26px 'Merriweather', serif;
+  --font3: 700 20px 'Merriweather', serif;
+  --font4: 700 20px 'Merriweather', serif;
+  --font5: 200 14px 'Inter', sans-serif;
+  --font6: 500 16px 'Inter', sans-serif;
+  --font7: 300 14px 'Inter', sans-serif;
+}
+.main-container {
+  height: 590px;
+  background-position: -200px -30px;
+  background-size: auto 620px;
+}
+.header-logo {
+  padding-top: 14px;}
+.hero-section-item2 {
+  height: 85px;
+  width: 259px;
+}
+.search_form {
+  padding-top: 52px;}
+.hero-section {
+  width: 260px;}
+.search_form_submit {
+  padding: 0px 25px}
+.nav-list {
+  width: 234px;
+  height: 401px;
+  padding: 134px 0px 0px 50px;
+  padding-top: 125px;
+}
+.nav-list.open {
+  width: 195px;
+  height: 351px;
+  padding: 138px 0px 0px 26px;
+}
+.nav-list li{
+  padding: 2px 0;
+}
+.nav-link{
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+}
+.fotokamera{
+  width: 42px;
+  height: 40px;
+}
+.logo{
+  width: 35px;
+  height: 35px;
+}
+.video{
+  width: 40px;
+  height: 40px;
+}
+.image{
+  width: 46px;
+  height: 40px;
+}
+.mic{
+  width: 32px;
+  height: 40px;
+}
+.instagram,
+.fb,
+.tw,
+.pinterest{
+  width: 22px;
+  height: 22px;
+}
+.section_skills_title {
+  width: 270px;
+}
+.section_skills_navigation {
+  padding-bottom: 0px;
+}
+h2.section_skills_title::before,h2.section_skills_title::after {
+  height: 2px;
+  width: 28%;
+}
+.section_portfolio_title1 {
+  width: 270px;
+}
+h2.section_portfolio_title1::before, h2.section_portfolio_title1::after {
+  width: 19%;
+  height: 2px;
+}
+.portfolio_search_form_submit1,
+.portfolio_search_form_submit2,
+.portfolio_search_form_submit3,
+.portfolio_search_form_submit4 {
+  padding: 0;
+  width: 151px;
+  height: 40px;
+}
+.section_video_title1 {
+  width: 270px;
+}
+h2.section_video_title1::before,h2.section_video_title1::after {
+  height: 2px;
+}
+.section_price_title1 {
+  width: 270px;
+}
+h2.section_price_title1::before,h2.section_price_title1::after {
+  height: 2px;
+  width: 35%;
+}
+.section_price_flex1_submit1,
+ .section_price_flex2_submit1,
+  .section_price_flex3_submit1 {
+  height: 40px;
+  width: 151px;
+}
+.section_price_title_flex1{
+  order:3;
+}
+.section_contacts{
+  display: flex;
+}
+.section_contacts_title {
+  padding-top: 60px;
+  position: initial;
+}
+.section_contacts_form1{
+  padding-top: 12px;
+}
+.section_contacts_form2{
+  padding-top: 8px;
+}
+.section_contacts_form3{
+  padding-top: 8px;
+}
+.section_button_form_item {
+  height: 40px;
+  width: 151px;
+}
+.section_contacts_form1_item,
+ .section_contacts_form2_item {
+  line-height: 26px;
+ }
+.section_button_form {
+  text-align: center;
+  margin: 0px;
+}
+.container_footer {
+  height: 111px;
+}
+}

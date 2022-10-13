@@ -1,0 +1,15 @@
+@keyframes Animation_hero-section-item
+{
+  from {color: red }
+  70% {color: yellow }
+  30% {color: green }
+  to {color: white }
+}
+@keyframes logo {
+0% {
+  transform: rotate(0);
+}
+100% {
+  transform: rotate(360deg);
+}
+}
